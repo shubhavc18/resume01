@@ -1,0 +1,12 @@
+.contact-container {
+  margin: 4rem auto 0 auto;
+  max-width: 900px;
+  text-align: left;
+  color: #bdbdfc;
+}
+
+.contact-container h2 {
+  color: #bdbdfc;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
