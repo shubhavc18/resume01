@@ -1,0 +1,23 @@
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0 0;
+  width: 100%;
+}
+
+.skills-list li {
+  background: #7a2ea7;
+  color: #bdbdfc;
+  margin: 0.65rem 0;
+  padding: 0.95rem 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.09rem;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.skills-list li:hover {
+  background: #c25be4;
+  color: #23232e;
+}

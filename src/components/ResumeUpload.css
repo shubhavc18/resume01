@@ -1,0 +1,87 @@
+.resume-upload-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.resume-status {
+  background: #1e3d4a;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.resume-status p {
+  color: #4caf50;
+  margin-bottom: 1rem;
+}
+
+.download-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  background: #45a049;
+}
+
+.upload-section {
+  margin: 1.5rem 0;
+}
+
+.file-input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #7a2ea7;
+  background: #23232e;
+  color: #bdbdfc;
+  width: 100%;
+}
+
+.file-selected {
+  color: #c25be4;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.upload-btn {
+  background: #7a2ea7;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.upload-btn:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.upload-btn:hover:not(:disabled) {
+  background: #c25be4;
+}
+
+.message {
+  padding: 0.8rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.message.success {
+  background: #4caf50;
+  color: white;
+}
+
+.message.error {
+  background: #f44336;
+  color: white;
+}
