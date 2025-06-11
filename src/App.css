@@ -1,0 +1,149 @@
+body {
+  background: #0a0a23;
+  color: #bdbdfc;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #181828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar-title {
+  color: #d07cf7;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: #bdbdfc;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar-links a.active {
+  color: #d07cf7;
+  font-weight: bold;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #bdbdfc;
+}
+
+.highlight {
+  color: #d07cf7;
+  font-weight: bold;
+}
+
+.load-more {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.about-card {
+  background: #23233b;
+  padding: 2rem;
+  border-radius: 12px;
+  min-width: 250px;
+  color: #bdbdfc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.about-links a, .cv-btn {
+  color: #d07cf7;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv-btn {
+  background: #d07cf7;
+  color: #23233b;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #6f2da8;
+  color: #bdbdfc;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projects-container {
+  margin: 3rem auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.contact-container {
+  margin: 3rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #6f2da8;
+  color: #bdbdfc;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #d07cf7;
+  color: #23233b;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
